@@ -35,9 +35,9 @@ pip install -q -U evaluate
 3. Optional: Create an account on Weights and Biases (https://wandb.ai/ )
 
 #Clone the repo
-git clone https://github.com/DeepakGitH/LLM_Workshop.git
-**PLEASE NOTE**
-**If the starter script does not work. Please run the script to prepare the node**
+git clone https://github.com/DeepakGitH/LLM_Workshop.git  
+**PLEASE NOTE**  
+**If the starter script does not work. Please run the script to prepare the node**  
 1. chmod 700 LLM_Workshop/starter_script.sh
 2. ./LLM_Workshop/starter_script.sh
 
