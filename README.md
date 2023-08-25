@@ -1,6 +1,9 @@
 # LLM_Workshop
 Setting up the GPU Node
 
+All these commands should be run when the node is created. The starter_scripts.sh should be used at creation of node.
+
+
 Config: A100 40 GB RAM / Ubuntu
 
 #GPU Setup  
@@ -30,6 +33,13 @@ pip install -q -U evaluate
 1. Create an account on huggingface (https://huggingface.co/)
 2. Request access to the LLAMA 2 CHAT 7B Model (https://huggingface.co/meta-llama/Llama-2-7b-chat-hf ). This is the Base model we will tune for our various tasks. Please note that the review for this takes some time so please request access to this as soon as possible. 1 per group should be fine.
 3. Optional: Create an account on Weights and Biases (https://wandb.ai/ )
+
+#Clone the repo
+git clone https://github.com/DeepakGitH/LLM_Workshop.git
+**PLEASE NOTE**
+**If the starter script does not work. Please run the script to prepare the node**
+1. chmod 700 LLM_Workshop/starter_script.sh
+2. ./LLM_Workshop/starter_script.sh
 
 Running Jupyter Notebook - Do this before the start of the workshop
 1. Login to the Node using SSH.
